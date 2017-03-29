@@ -1,0 +1,24 @@
+.circle {
+    display: block;
+    float: left;
+    position: relative;
+}
+circle {
+  fill: rgba(0,0,0,0);
+  stroke: #eee;
+  stroke-width: 15;
+  stroke-dasharray: 408px 408px;
+}
+circle:nth-child(2n) {
+  fill: rgba(0,0,0,0);
+  stroke: #30bae7;
+  stroke-width: 15;
+}
+
+.percents {
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
